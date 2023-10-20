@@ -1,0 +1,39 @@
+{
+
+    "include": "~/.config/hypr/waybar/modulesvertical",
+  
+"layer": "top",
+
+    "position": "top",
+
+    //"height": 20,
+
+    "margin-left": 10,
+    "margin-bottom": 0,
+    "margin-right": 10,
+
+    "spacing": 5, // Gaps between modules (4px)
+
+    "modules-left": [
+        "custom/rofi",
+        "wlr/workspaces",
+        "temperature",
+        //"idle_inhibitor",
+        //"mpd"
+        "custom/media"
+    ],
+    "modules-center": [
+        "clock#date",
+        "custom/weather"
+    ],
+    "modules-right": [
+        "backlight",
+        "custom/storage",
+        "memory",
+        "cpu",
+        "battery",
+        "pulseaudio",
+        "tray"
+    ],
+
+}
